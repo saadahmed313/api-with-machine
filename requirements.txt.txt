@@ -1,7 +1,0 @@
-gunicorn
-flask
-pandas
-pickle
-joblib
-numpy
-sklearn
