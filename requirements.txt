@@ -4,4 +4,4 @@ pandas
 pickle
 joblib
 numpy
-sklearn
+scikit-learn
