@@ -18,7 +18,7 @@ def predict():
     # Get data from request
     req_data = {
         'gender': request.args['gender'],
-        'age': int(request.args['age']),
+        'age': float(request.args['age']),
         'hypertension': int(request.args['hypertension']),
         'heart_disease': int(request.args['heart_disease']),
         'ever_married': request.args['ever_married'],
