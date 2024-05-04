@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import pickle
-from preprocessing import HandleSmokingStatus
+# from preprocessing import HandleSmokingStatus
 
 app = Flask(__name__)
 
